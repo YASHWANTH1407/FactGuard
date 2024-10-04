@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Tiny5&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="head">  <a class="head" href="{{ url_for('home') }}">Factguard</a></div>
+    
+    <div class="body1">
+    <div class="wrapper">
+        <h2 class="head1">Register</h2>
+        <form method="POST">
+            <div class="input-field">
+                <input type="text" id="username" name="username" required>
+                <label for="username">Username</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" name="password" required>
+                <label for="password">Enter your password</label>
+            </div>
+        
+        <button type="submit">Register</button>
+        </form>
+        <div class="register">
+            <p>Already existing User? <a href="{{ url_for('login') }}">Login</a></p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    document.getElementById("head").onclick = function() {
+        window.location.href = "{{ url_for('home') }}";
+    };
+</script>
+</html>

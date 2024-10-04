@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dashboard.css"/>
+</head>
+<body>
+    <div class="header">
+        <!-- <div class="head">  <a class="head" href="{{ url_for('home') }}">Factguard</a></div> -->
+    </div>
+    <div class="logout"><a href="{{ url_for('logout') }}">LOGOUT</a></div>
+    <div class="container">
+        <div class="
+        -container" id="video-container">
+        <br/>
+        <br/><br/><br/>
+            <h2>WELCOME,<br>{{ name }}!</h2>
+            <br/>
+            <br/>
+            <p>FactGuard provides automated fact-checking for YouTube videos,
+               but please don't rely solely on our analysis. Always cross-check
+               information with other reputable sources, use critical thinking, 
+               and report any inaccuracies you find. <br>Thank you for using FactGuard responsibly!</p>
+        </div>  
+        <div class="chat-box" id="chatBox"></div>
+    </div>
+    <div class="input-box">
+        <input type="text" id="user-input" placeholder="Enter Youtube URL....">    
+    </div>
+</body>
+<script src="script.js">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>

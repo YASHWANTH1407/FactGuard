@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.head a{
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+  color: #597445;
+  display: flex;
+  position: fixed;
+  top: 2vw;
+  left: 2vw;
+  transition: 1s;
+  height: 6.5vw;
+  width:35vw;
+  font-family: "crude", sans-serif;
+  font-weight: 300;
+  font-size: 4vw;
+  margin-left: -0.7vw;
+  margin-top: 8px;
+  display: inline-block;
+}
+.head a:hover{
+  color:#E7F0DC;
+  background-color: #597445;
+}
+body{
+  background-color: #E7F0DC;
+}
+.body1{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:70vh;
+  width: 100%;
+}
+
+.body1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  margin-top: 13vw;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  /*border: 1px solid rgba(255, 255, 255, 0.5);*/
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.head1{
+  font-family: 'crude' , sans-serif;
+  font-size: 3vw;
+  color: black;
+  display: inline-block;
+  font-weight: 300;
+  text-shadow: 
+        -2px -2px 0 #E7F0DC,  
+         2px -2px 0 #E7F0DC,
+        -2px  2px 0 #E7F0DC,
+         2px  2px 0 #E7F0DC;
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #597445;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #597445;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #597445;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #729762;
+}
+
+#remember {
+  accent-color: #729762;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label p {
+  margin-left: 8px;
+}
+
+.wrapper a {
+  color: #729762;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  color: #597445;
+}
+
+button {
+  background: #597445;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  color: #597445;
+  border-color: #597445;
+  background: #E7F0DC;
+}
+
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #597445;
+}
+
+
+.teko-fontclass {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.square-peg-regular {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crude'; /*a name to be used later*/
+  src: url('../fonts/Crude.otf')format('opentype'); /*URL to font*/
+  font-weight: 100;
+  font-style: normal;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #E7F0DC;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #729762;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #597445;
+}

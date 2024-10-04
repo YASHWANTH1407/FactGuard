@@ -1,0 +1,238 @@
+/*
+#E7F0DC
+#597445
+#658147
+#729762
+*/
+body{
+  background-color: #E7F0DC;
+}
+.head a{
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+  color: #597445;
+  position: fixed;
+  top: 2vw;
+  left: 2vw;
+  transition: 1s;
+  height: 6.5vw;
+  width:35vw;
+  font-family: "crude", sans-serif;
+  font-weight: 300;
+  font-size: 4vw;
+  margin-left: -0.7vw;
+  margin-top: 8px;
+  display: inline-block;
+}
+.head a:hover{
+  color:#E7F0DC;
+  background-color: #597445;
+}
+a{
+  align-items: end;
+  color: #597445;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+.logins{
+  font-family: "crude", sans-serif;
+  
+  display: flex;
+  position: fixed;
+  top: 2vw;
+  right: 2vw;
+  color: #597445;
+}
+.login{
+  font-family: "crude", sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  height: 3vw;
+  width:10vw;
+  color: #597445;
+  transition: 1s;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #597445;
+}
+.register{
+  font-family: "crude", sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  height: 3vw;
+  width: 16vw;
+  color: #597445;
+  margin-left: 3vw;
+  transition: 1s;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #597445;
+  
+}
+.login:hover{
+  color: #E7F0DC;
+  background-color: #597445;
+}
+.register:hover{
+  color: #E7F0DC;
+  background-color: #597445;
+}
+.gets1{
+  font-family: 'crude' , sans-serif;
+  color: black;
+  font-size: 3vw;
+  transition: 1s;
+  text-shadow: 
+        -2px -2px 0 #E7F0DC,  
+         2px -2px 0 #E7F0DC,
+        -2px  2px 0 #E7F0DC,
+         2px  2px 0 #E7F0DC;
+}
+.gets1:hover{
+  color: #E7F0DC;
+  text-shadow: 
+        -2px -2px 0 #597445,  
+         2px -2px 0 #597445,
+        -2px  2px 0 #597445,
+         2px  2px 0 #597445;
+}
+.gets{
+  text-align: center;
+  width:35vw;
+  margin-top: 1vw;
+  margin-left: 32vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #597445;
+}
+.gets:hover{
+  border-color: #597445;
+  background-color: #597445;
+}
+p{
+  margin-top: 15vw;
+  color : #658147;
+  font-size: 2.3vw;
+  font-style: bold;
+  width: 65vw;
+  margin-left: 17vw;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'roboto' , sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teko-fontclass {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.square-peg-regular {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'crude'; /*a name to be used later*/
+  src: url('../fonts/Crude.otf')format('opentype'); /*URL to font*/
+  font-weight: 100;
+  font-style: normal;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
